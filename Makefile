@@ -13,6 +13,8 @@ html:
 	pandoc -s \
 		--toc \
 		--css pandoc.css \
+        --data-dir ./src \
+        --template reader.html \
 		--resource-path src \
 		--self-contained \
 		-o $(OUT) \

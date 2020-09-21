@@ -9,8 +9,6 @@ output:
     toc_depth: 2
 ---
 
------
-
 # How does it work?
 
 It uses `GNU Make`, `pandoc`, and `livereload (python)` to implement the following:

@@ -4,6 +4,12 @@
 
 It works by running `make html` in a loop, while the pip package `livereload` watches your `doc.md` file.
 
+``` sh
+# Quick install
+sudo apt install make pandoc python3-pip
+pip3 install --user livereload
+```
+
 The preview is served on [localhost](http://localhost:5500) and is automatically updated whenever you save `doc.md`. 
 
 ## Why?
